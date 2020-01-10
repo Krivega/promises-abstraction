@@ -1,8 +1,10 @@
 {
   "name": "promises-abstraction",
   "description": "Various abstractions over promises",
-  "keywords": ["promise"],
-  "version": "0.0.1",
+  "keywords": [
+    "promise"
+  ],
+  "version": "0.0.2",
   "author": {
     "name": "Krivega Dmitriy",
     "email": "mr.krivega@gmail.com",
@@ -54,7 +56,7 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "jest",
     "build": "NODE_ENV=production rollup --config",
-    "prepare" : "npm run build",
+    "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "release": "standard-version"
   },
