@@ -17,7 +17,7 @@ export default [
         format: 'es'
       }
     ],
-    plugins: [resolve(), babel()]
+    plugins: [resolve(), babel(), terser()]
   },
   {
     input: {
@@ -38,6 +38,6 @@ export default [
         format: 'es'
       }
     ],
-    plugins: [resolve(), babel()]
+    plugins: [resolve(), babel(), terser()]
   }
 ];
